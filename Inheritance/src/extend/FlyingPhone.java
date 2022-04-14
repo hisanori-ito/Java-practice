@@ -18,6 +18,6 @@ public class FlyingPhone implements Phone, Flying {
 	}
 	
 	public void powerOff() {
-		Flying.powerOff();
+		Flying.super.powerOff();
 	}
 }
